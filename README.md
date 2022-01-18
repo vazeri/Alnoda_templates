@@ -1,6 +1,8 @@
 # Create Server in Scaleway with Terraform
 
 ## Prepare workspace
+Get your credentials at [ScaleWay](https://console.scaleway.com/project/credentials).
+Make sure to create API keys fo the Organization and not the user
 
 Set your credentials as environment variable in your workspace. 
 Add the following lines to /home/abc/.zshrc:
@@ -30,4 +32,17 @@ terraform apply
 terraform destroy
 ```
 
+
+
+```
+Save project to GitHub
+```
+terraform destrgit init
+git add *
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <repo url>
+git push -f origin main
+oy
+```
 
