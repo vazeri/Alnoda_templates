@@ -37,12 +37,20 @@ terraform destroy
 
 - Save project to GitHub
 ```
-terraform destrgit init
+git init
 git add *
 git commit -m "Initial commit"
 git branch -M main
 git remote add origin <repo url>
 git push -f origin main
 oy
+```
+
+- Update project
+```
+
+git add *
+git commit -m "Initial commit"
+git push
 ```
 
