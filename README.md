@@ -34,8 +34,8 @@ terraform destroy
 
 
 
-```
-Save project to GitHub
+
+- Save project to GitHub
 ```
 terraform destrgit init
 git add *
